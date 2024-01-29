@@ -1,0 +1,70 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .nav {
+    margin: 20px auto;
+    /* background-color: #404040; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.nav img {
+    width: 200px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #messages li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  #messages li:nth-child(odd) {
+    background-color: #e5e5e5;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  #input {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
